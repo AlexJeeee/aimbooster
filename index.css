@@ -1,0 +1,70 @@
+#aimmap {
+    width:500px;
+    height:500px;
+    background: #333;
+}
+
+.target {
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    background: orange;
+    -webkit-animation:grow 3s infinite;
+    animation-iteration-count: 1;
+
+}
+
+.click {
+    width:10px;
+    height:10px;
+    border-radius: 100%;
+    background: red;
+}
+
+
+
+@-webkit-keyframes grow {
+    0% {
+       transform: scale(0);
+    }
+
+    10% {
+        transform: scale(0.2);
+    }
+
+    20% {
+        transform: scale(0.4);
+    }
+
+    30% {
+        transform: scale(0.6);
+    }
+
+    40% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(0.8);
+    }
+
+    70% {
+        transform: scale(0.6);
+    }
+
+    80% {
+        transform: scale(0.4);
+    }
+
+    90% {
+        transform: scale(0.2);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
